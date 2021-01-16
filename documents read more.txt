@@ -1,0 +1,9 @@
+Plugins
+jquery3.5.1
+owl.carousel
+
+
+frameworks 
+bootstrap
+
+Design not completely responsive it will take some more time.

@@ -1,0 +1,574 @@
+/* Common style Start here */
+
+@font-face {
+    font-family: Sailec;
+    src: url("../fonts/Sailec.otf") format("truetype"),
+        url("../fonts/SailecBold.otf") format("truetype"),
+        url("../fonts/SailecMedium.otf") format("truetype");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Sailec !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:focus, button:focus{
+border: 0px !important;
+}
+
+a,
+a:hover,
+a:visited {
+    color: transparent;
+    cursor: pointer;
+}
+
+input[type=text],
+select {
+    width: 35%;
+    padding: 3px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    font-size: 12px;
+}
+
+/* Common style End Start here */
+
+/* Hedaer start */
+header {
+    background: rgb(16, 36, 33);
+    background: -moz-linear-gradient(left, rgb(16, 36, 33) 69%, rgb(255, 255, 255) 69%);
+    background: -webkit-linear-gradient(left, rgb(16, 36, 33) 69%, rgb(255, 255, 255) 69%);
+    background: linear-gradient(to right, rgb(16, 36, 33) 69%, rgb(255, 255, 255) 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#102421', endColorstr='#ffffff', GradientType=1);
+
+    min-height: 137px;
+}
+
+#navbarSupportedContent {
+    width: calc(100% - 725px);
+    background: #fff;
+    min-height: 137px;
+    margin-right: -12px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #102421 !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+ul.navbar-nav {
+    align-self: end;
+    margin-top: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    align-self: end;
+    margin-top: 30px;
+}
+
+.pr-0 {
+    padding-right: 0px;
+}
+
+.navbar-nav li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #151442 !important;
+    padding-right: .9rem !important;
+    padding-left: .9rem !important;
+}
+
+.nav-item.shoppbag span {
+    background: #151442;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 7px;
+    top: 2px;
+    position: relative;
+}
+
+.navbar-nav li:last-child {
+    margin-left: 2.2rem;
+}
+
+.navbar-nav li:nth-child(4) {
+    margin-left: 2.2rem;
+}
+
+/* header end here  */
+
+/* Banner Start here  */
+.SiteBanner {
+    background: rgb(16, 36, 33);
+    background: linear-gradient(to right, rgb(16, 36, 33) 56%, rgb(16, 36, 33) 56%, rgb(255, 255, 255) 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#102421', endColorstr='#ffffff', GradientType=1);
+    min-height: 137px;
+}
+
+.banner-content {
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+.banner-content h3 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120.5%;
+    letter-spacing: 0.5em;
+    color: #D2D2D2;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.banner-content h2 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 120.5%;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-content h4 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120.5%;
+    color: #D2D2D2;
+}
+
+ul.btnGroup {
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+}
+
+ul.btnGroup li a {
+    background: #C7E1BF;
+    border-radius: 48px;
+    padding: 21px 40px;
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120.5%;
+    /* identical to box height, or 17px */
+    color: #102522;
+    text-decoration: none;
+}
+
+ul.btnGroup li {
+    list-style: none;
+    float: left;
+    margin-right: 32px;
+}
+
+ul.btnGroup li a:hover {
+    background: #bde8af;
+    transition: background-color 0.8s ease;
+}
+
+/* Banner end here */
+
+
+/* Product Section Start here */
+.productsection {
+    padding-bottom: 160px;
+    padding-top: 160px;
+}
+
+.productsection h2 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: #151442;
+    text-align: center;
+}
+
+.ShoppingBtn {
+    float: right;
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 120.5%;
+    color: #151442;
+}
+
+.ShoppingBtn {
+    box-sizing: border-box;
+    border-radius: 31px;
+    padding: 19px 51px;
+    text-decoration: none;
+    border: 1px solid #102421;
+    box-sizing: border-box;
+    border-radius: 31px;
+    padding: 19px 51px;
+    text-decoration: none;
+    position: relative;
+    top: 22px;
+    background: url(../img/btnarrow.png) no-repeat;
+    background-position: 157px center;
+}
+
+.ShoppingBtn:hover {
+    background: #102421;
+    color: #fff;
+    transition: background-color 0.8s ease;
+
+}
+
+.productList ul {
+    margin: 50px 0 0 0;
+    padding: 0px;
+}
+
+.productList ul li {
+    list-style: none;
+    max-width: 296px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin-right: 22px;
+}
+
+.productList ul li span {
+    display: block;
+}
+
+.productList ul li .PrdName {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 149.5%;
+    color: #151442;
+    margin-top: 30px;
+}
+
+.PriceRange {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 149.5%;
+    color: #8F9095;
+    margin-top: 20xp;
+}
+
+.productList ul li p {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    text-align: center;
+    color: #8F9095;
+    margin-top: 25px;
+}
+
+.viewD {
+    position: absolute;
+    top: 73px;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background: #102421;
+    right: 37px;
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff !important;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.productList ul li {
+    position: relative;
+}
+
+.productsection.NewProductSlider .productList ul li {
+    width: 100% !important;
+    max-width: fit-content;
+    margin-right: 35px;
+}
+
+.productsection.NewProductSlider .ShoppingBtn {
+    margin-right: 50px;
+}
+
+.productsection.NewProductSlider .owl-carousel .owl-nav.disabled {
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+}
+
+.productsection.NewProductSlider .owl-carousel {
+    position: relative;
+}
+
+.productsection.NewProductSlider .owl-carousel .owl-nav.disabled {
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+}
+
+.productsection.NewProductSlider .owl-carousel {
+    position: relative;
+}
+
+button.owl-prev,
+button.owl-next {
+    width: 52px;
+    height: 52px;
+    border-radius: 50% !important;
+    background: #FFFFFF !important;
+    opacity: 10;
+}
+
+.productsection.NewProductSlider .productList {
+    margin-bottom: 70px;
+}
+
+/* Product Section End here */
+
+/* Feedback Section Start here */
+.feebackSection {
+    padding: 148px 0 0;
+    background-image: url(../img/Sectionimg.png);
+    min-height: 940px;
+    background-size: cover;
+}
+
+.feebackSection h2 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 120.5%;
+    margin-top: 180px;
+    /* or 96px */
+    color: #FFFFFF;
+}
+
+.videoBtn {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    color: #FFF !important;
+}
+
+.Testimoni p {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 150%;
+    color: #342B42;
+    padding: 0px 30px;
+}
+
+.Testimoni h4 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 168%;
+    text-align: right;
+    color: #454545;
+}
+
+.Testimoni h5 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 168%;
+    text-align: right;
+    color: #454545;
+}
+
+.Testimoni {
+    background: #FFF3F3;
+    padding: 50px;
+}
+
+.right-al {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.right-al img {
+    transform: rotate(-180deg);
+}
+
+/* Feedback Section End here */
+
+/* BenifitSection Start */
+
+.BenifitSection {
+    padding: 55px 0;
+}
+
+.productsection.NewProductSlider {
+    padding-bottom: 60px;
+}
+
+.BenifitSection h2 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: #151442;
+    text-align: center;
+}
+
+.BenifSection {
+    text-align: center;
+}
+
+.BenifSection ul {
+    margin: 90px 0;
+    padding: 0px;
+}
+
+.BenifSection ul li {
+    list-style: none;
+    display: inline-block;
+    max-width: 251px;
+    margin-right: 50px;
+}
+
+.BenifSection ul li img {
+    margin-bottom: 26px;
+}
+
+.BenifSection ul li p {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+/* footerSection */
+
+.footerSection {
+    padding: 150px 0px;
+    background: #0F2421;
+}
+
+.footerSection h2 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 88px;
+    color: #fff;
+    margin-left: 30px;    
+}
+
+.Copyright{
+    margin-left: 30px;
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 282.5%;
+    color: #FFFFFF;
+}
+
+ul.footerlist {
+    float: right;
+    max-width: 263px;
+    margin-right: 40px;
+}
+
+ul.footerlist h4 {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+ul.footerlist li a {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.footerlist li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul.footerlist  p {
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    line-height: 38px;
+}
+
+a.topgobtn {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    width: 41px;
+    height: 41px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+.footerSection {
+    position: relative;
+}
+button.owl-prev:hover, button.owl-next:hover {
+    opacity: 10;
+    color: #000 !important;
+}
