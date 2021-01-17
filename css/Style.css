@@ -499,7 +499,7 @@ button.owl-next {
     font-weight: 500;
     font-size: 88px;
     color: #fff;
-    margin-left: 30px;    
+    margin-left: 30px;
 }
 
 .Copyright{
@@ -571,4 +571,417 @@ a.topgobtn {
 button.owl-prev:hover, button.owl-next:hover {
     opacity: 10;
     color: #000 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    header {
+        background: #102421;
+        min-height: 80px;
+    }
+
+    section.SiteBanner {
+        background: #102421;
+    }
+
+    .banner-content {
+        padding-top: 10px;
+    }
+
+    .banner-content h3 {
+        margin-bottom: 10px;
+    }
+
+    .banner-content h2 {
+        font-size: 52px;
+    }
+
+    .banner-content {
+        padding-bottom: 63px;
+    }
+    .productsection {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .productsection h2 {
+        font-size: 52px;
+    }
+
+    .productList ul li {
+        max-width: max-content;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        width: 100%;
+        margin-top: 91px;
+    }
+
+    .productList ul li {
+        max-width: max-content;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        width: 100%;
+        margin-top: 91px;
+    }
+
+    .ShoppingBtn {
+        position: relative;
+        right: 0;
+        top: 0;
+        padding: 13px 36px;
+        background-position: 131px center;
+    }
+
+    .productsection h2 {
+        position: relative;
+    }
+
+    .feebackSection h2 {
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    .Testimoni p {
+        font-size: 25px;
+    }
+
+    .Testimoni {
+        padding: 15px;
+        margin-top: 11px;
+    }
+
+    .feebackSection {
+        min-height: auto;
+        padding-bottom: 22px;
+        padding-top: 20px;
+    }
+
+    .productsection.NewProductSlider .productList ul li {
+        margin-right: 0px;
+        max-width: 100%;
+    }
+
+    .BenifitSection h2 {
+        font-size: 40px;
+    }
+
+    .BenifitSection {
+        padding: 20px 0;
+    }
+
+    .productsection.NewProductSlider {
+        padding-bottom: 20px;
+    }
+
+    ul.btnGroup li a {
+        padding: 15px 15px;
+    }
+
+    ul.btnGroup li {
+        margin-right: 12px;
+    }
+
+    .BenifSection ul {
+        margin: 35px 0 10px;
+    }
+    .footerSection {
+        padding: 30px 0;
+    }
+
+    .footerSection h2 {
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    ul.footerlist {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 21px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        background: #fff;
+        padding: .15rem .25rem;
+    }
+
+    #navbarSupportedContent {
+        width: 100%;
+        margin-right: 0px;
+        min-height: fit-content;
+        border-radius: 6px;
+    }
+
+    .navbar-nav li:nth-child(4) {
+        margin-left: 0px;
+    }
+
+    .navbar-nav li:last-child {
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .nav-item.shoppbag span {
+        top: -2px;
+        position: absolute;
+        left: 36px;
+    }
+
+    .owl-nav {
+        text-align: center;
+    }
+
+    .owl-dots {
+        text-align: center;
+    }
+
+    button.owl-prev, button.owl-next {
+        border: solid #000 !important;
+        width: 30px;
+        height: 30px;
+    }
+
+    span.Copyright {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width:990px) {
+ header {
+    background: #102421;
+    min-height: 80px;
+}
+
+section.SiteBanner {
+    background: #102421;
+}
+
+.banner-content {
+    padding-top: 10px;
+}
+
+.banner-content h3 {
+    margin-bottom: 10px;
+}
+
+.banner-content h2 {
+    font-size: 52px;
+}
+
+.banner-content {
+    padding-bottom: 63px;
+}
+.productsection {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.productsection h2 {
+    font-size: 52px;
+}
+
+.productList ul li {
+    max-width: max-content;
+}
+
+.owl-carousel .owl-stage-outer {
+    width: 100%;
+    margin-top: 91px;
+}
+
+.productList ul li {
+    max-width: max-content;
+}
+
+.owl-carousel .owl-stage-outer {
+    width: 100%;
+    margin-top: 91px;
+}
+
+.ShoppingBtn {
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 13px 36px;
+    background-position: 131px center;
+}
+
+.productsection h2 {
+    position: relative;
+}
+
+.feebackSection h2 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.Testimoni p {
+    font-size: 25px;
+}
+
+.Testimoni {
+    padding: 15px;
+    margin-top: 11px;
+}
+
+.feebackSection {
+    min-height: auto;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+
+.productsection.NewProductSlider .productList ul li {
+    margin-right: 20px;
+    max-width: 100%;
+    margin-left: 20px;
+    width: auto !important;
+}
+
+.BenifitSection h2 {
+    font-size: 40px;
+}
+
+.BenifitSection {
+    padding: 20px 0;
+}
+
+.productsection.NewProductSlider {
+    padding-bottom: 20px;
+}
+
+ul.btnGroup li a {
+    padding: 15px 15px;
+}
+
+ul.btnGroup li {
+    margin-right: 12px;
+}
+
+.BenifSection ul {
+    margin: 35px 0 10px;
+}
+.footerSection {
+    padding: 30px 0;
+}
+
+.footerSection h2 {
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+ul.footerlist {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 21px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    background: #fff;
+    padding: .15rem .25rem;
+}
+
+#navbarSupportedContent {
+    width: 100%;
+    margin-right: 0px;
+    min-height: fit-content;
+    border-radius: 6px;
+}
+
+.navbar-nav li:nth-child(4) {
+    margin-left: 0px;
+}
+
+.navbar-nav li:last-child {
+    margin-left: 0px;
+    position: relative;
+}
+
+.nav-item.shoppbag span {
+    top: -2px;
+    position: absolute;
+    left: 36px;
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+button.owl-prev, button.owl-next {
+    border: solid #000 !important;
+    width: 30px;
+    height: 30px;
+}
+
+span.Copyright {
+    margin-left: 0px;
+}
+
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+    #navbarSupportedContent {
+        width: calc(100% - 355px);
+    }
+
+    .banner-content {
+        padding-top: 50px;
+        padding-bottom: 63px;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .productsection {
+        padding-bottom: 32px !important;
+        padding-top: 60px;
+    }
+
+    .productsection h2 {
+        font-size: 46px;
+    }
+
+    .feebackSection {
+        padding: 40px 0 0;
+        min-height: auto;
+    }
+
+    .feebackSection h2 {
+        font-size: 50px;
+    }
+
+    .Testimoni p {
+        font-size: 28px;
+    }
+
+    .BenifitSection {
+        padding: 30px 0;
+    }
+
+    .BenifitSection h2 {
+        font-size: 40px;
+    }
+
+    .BenifSection ul {
+        margin: 30px 0;
+    }
+
+    .footerSection h2 {
+        font-size: 57px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+    #navbarSupportedContent {
+        width: calc(100% - 355px);
+    }
+
 }
